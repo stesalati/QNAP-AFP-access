@@ -5,7 +5,13 @@ Tested on QNAP TS-453A.
 
 # Steps
 ## Installation of Debian in a container and basic configuration
-Create Debian container on the NAS with ContainerStation. At this point you should be able to work in the console.
+Create Debian container on the NAS with ContainerStation.
+![Alt text](readme1.jpg)
+
+Share the folders you want to access
+![Alt text](readme2.jpg)
+
+At this point you should be able to work in the console.
 
 Make that usable by refreshing packages and make installing packages possible:
 ```
