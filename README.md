@@ -1,4 +1,4 @@
-# QNAP-AFP-access
+# QNAP AFP access
 How to access files in a QNAP NAS remotely from a MacBook.
 
 Tested on QNAP TS-453A.
