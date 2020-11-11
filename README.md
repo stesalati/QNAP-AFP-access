@@ -40,7 +40,7 @@ Configure Hamachi by logging in and joining the right virtual LAN: https://suppo
 
 At this point the Debian in the container should show up in the hamachi window on the MacBook and you should be able to ssh from the MacBook:
 ```
-ssh ssh ste@xxx.xxx.xxx.xxx
+ssh ste@xxx.xxx.xxx.xxx
 ```
 
 ## Enabling file access with AFP
@@ -70,4 +70,4 @@ Now, install Avahi following the guide linked above.
 At this point, provided that
 * Hamachi is well configured and active on the MacBook
 * Debian is running in a container on the QNAP with Hamachi, Natatalk and Avahi well configured and running
-it will be possible to access the folder on the QNAP remotely both from the Finder Network list and by typing the right IP address in Finder/Go/Connect to Server.
+it will be possible to access the folder on the QNAP remotely both from the Finder Network list and by typing the right IP address in Finder/Go/Connect to Server with `afp://xxx.xxx.xxx.xxx`.
