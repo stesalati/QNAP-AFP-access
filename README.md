@@ -51,7 +51,7 @@ Configure netatalk:
 
 `nano /etc/netatalk/afp.conf`
 
-An example could be:
+An example could be (this can help: https://pimylifeup.com/raspberry-pi-afp/):
 
 ```
 [Homes]
